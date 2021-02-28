@@ -6,7 +6,7 @@
 
 // Linear Search
 // How is indexOf implemented in JavaScript?
-
+ 
 // Loop through your array looking for the desired value
 // If you find it, return the index
 // If you exhaust the array, return -1
@@ -37,3 +37,11 @@ function indexOf(arr, val) {
 // If the middle value is too big, you can eliminate every value to the right!
 // If the middle value is too small, you can eliminate every value to the left!
 // Among all remaining values, pick the middle one, and repeat.
+
+function binarySearch(ar, val){
+    const middleIdx = math.floor((arr.length -1)/2)
+    console.log(middleIdx);
+}
+SVGFESpotLightElem
+[3,4,6,9,10,12,15,22,30,31]
+
