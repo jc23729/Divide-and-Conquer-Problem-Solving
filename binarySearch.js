@@ -64,4 +64,4 @@ function binarySearch(arr, val) {
   return -1;
 }
 
-//
+//1. O(1) : refers to an operation where the value/the element is accessed directly
