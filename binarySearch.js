@@ -65,3 +65,4 @@ function binarySearch(arr, val) {
 }
 
 //1. O(1) : refers to an operation where the value/the element is accessed directly
+//O(n) : refers to a (set of) where the element can only be accessed by traversing a set of n elements, like in linear search.
