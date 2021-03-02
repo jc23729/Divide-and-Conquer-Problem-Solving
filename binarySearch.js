@@ -69,3 +69,8 @@ function binarySearch(arr, val) {
 // But what does O(log n) really mean? It may seem difficult to understand but let’s visualize it using a simple example of binary search, while searching for a number in a sorted array which will take the worst-case time complexity:
 // n = 16 (no. of elements in the sorted array)
 
+// # Python3 code to implement iterative Binary  
+// # Search. 
+  
+// # It returns location of x in given array arr  
+// # if present, else returns -1 
