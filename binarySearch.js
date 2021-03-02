@@ -87,3 +87,7 @@ function binarySearch(arr, val) {
           // # If x is greater, ignore left half 
           //     elif arr[mid] < x: 
           //        l = mid + 1
+
+          // # If x is smaller, ignore right half 
+          // else: 
+          //     r = mid - 1
