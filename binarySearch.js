@@ -91,3 +91,11 @@ function binarySearch(arr, val) {
           // # If x is smaller, ignore right half 
           // else: 
           //     r = mid - 1
+
+    //       # If we reach here, then the element 
+    // # was not present 
+    // return -1
+
+//     # Driver Code 
+// arr = [ 2, 3, 4, 10, 40 ] 
+// x = 10
