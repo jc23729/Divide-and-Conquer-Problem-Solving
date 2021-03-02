@@ -84,3 +84,6 @@ function binarySearch(arr, val) {
 //         # Check if x is present at mid 
 //         if arr[mid] == x: 
 //             return mid 
+          // # If x is greater, ignore left half 
+          //     elif arr[mid] < x: 
+          //        l = mid + 1
