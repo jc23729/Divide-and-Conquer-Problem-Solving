@@ -181,4 +181,12 @@ indexOf([4, 8, 15, 16, 23, 42], 100); // -1
 // Among all remaining values, pick the middle one, and repeat.
 
 
-
+// How Many Comparisons?
+// Array size	Linear search	Binary Search
+// 3	Max 3 comparisons	Max 2 comparisons
+// 7	Max 7 comparisons	Max 3 comparisons
+// 15	Max 15 comparisons	Max 4 comparisons
+// 31	Max 31 comparisons	Max 5 comparisons
+// 1,023	Max 1,023 comparisons	Max 10 comparisons
+// 1,048,575	Max 1,048,575 comparisons	Max 20 comparisons
+// Time Complexity: O(log n)
