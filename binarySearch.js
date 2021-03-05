@@ -169,3 +169,13 @@ indexOf([4, 8, 15, 16, 23, 42], 42); // 5
 indexOf([4, 8, 15, 16, 23, 42], 100); // -1
 
 
+// What if your array has 100 elements? 1,000,000,000?
+
+// Binary Search
+// If our array is sorted, we can look for values much more quickly!
+
+// Look at the middle value in the array
+// If the middle value is the one you’re looking for, congratulations!
+// If the middle value is too big, you can eliminate every value to the right!
+// If the middle value is too small, you can eliminate every value to the left!
+// Among all remaining values, pick the middle one, and repeat.
