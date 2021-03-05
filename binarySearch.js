@@ -179,3 +179,6 @@ indexOf([4, 8, 15, 16, 23, 42], 100); // -1
 // If the middle value is too big, you can eliminate every value to the right!
 // If the middle value is too small, you can eliminate every value to the left!
 // Among all remaining values, pick the middle one, and repeat.
+
+
+
