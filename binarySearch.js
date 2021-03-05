@@ -155,10 +155,10 @@ findRotatedIndex([6, 7, 8, 9, 1, 2, 3, 4], 12) // -1
 // custom indexOf implementation
 function indexOf(arr, val) {
 
-//   for (let i = 0; i < arr.length; i++) {
-//     // if you find the value, return the index
-//     if (arr[i] === val) return i;
-//   }
+  for (let i = 0; i < arr.length; i++) {
+    // if you find the value, return the index
+    if (arr[i] === val) return i;
+  }
 
 //   // if you never find the value, return -1
 //   return -1;
