@@ -195,8 +195,8 @@ Code Example
 demo/binarySearch.js
 function binarySearch(arr, val) {
 
-//   let leftIdx = 0;
-//   let rightIdx = arr.length - 1;
+  let leftIdx = 0;
+  let rightIdx = arr.length - 1;
 
 //   while (leftIdx <= rightIdx) {
 //     // find the middle value
