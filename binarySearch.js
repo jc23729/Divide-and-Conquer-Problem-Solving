@@ -256,14 +256,14 @@ def findRotationCount(A):
         # if `A[left…mid]` is sorted, then the pivot element cannot be present in it;
         # discard `A[left…mid]` and search in the right half
  
-//         elif A[mid] >= A[left]:
-//             left = mid + 1
+        elif A[mid] >= A[left]:
+            left = mid + 1
  
-//     # invalid input
-//     return -1
+    # invalid input
+    return -1
  
  
-// if __name__ == '__main__':
+if __name__ == '__main__':
  
-//     A = [8, 9, 10, 1, 2, 3, 4, 5, 6, 7]
-//     print("The list is rotated", findRotationCount(A), "times")
+    A = [8, 9, 10, 1, 2, 3, 4, 5, 6, 7]
+    print("The list is rotated", findRotationCount(A), "times")
