@@ -234,3 +234,36 @@ def findRotationCount(A):
             return left
  
         mid = (left + right) // 2
+
+        # find the next and previous element of the `mid` element
+        # (in a circular manner)
+        next = (mid + 1) % len(A)
+        prev = (mid - 1 + len(A)) % len(A)
+ 
+//         # if the `mid` element is less than both its next and previous
+//         # neighbor, it is the list's minimum element
+ 
+//         if A[mid] <= A[next] and A[mid] <= A[prev]:
+//             return mid
+ 
+//         # if `A[mid…right]` is sorted, and `mid` is not the minimum element,
+//         # then the pivot element cannot be present in `A[mid…right]`,
+//         # discard `A[mid…right]` and search in the left half
+ 
+//         elif A[mid] <= A[right]:
+//             right = mid - 1
+ 
+//         # if `A[left…mid]` is sorted, then the pivot element cannot be present in it;
+//         # discard `A[left…mid]` and search in the right half
+ 
+//         elif A[mid] >= A[left]:
+//             left = mid + 1
+ 
+//     # invalid input
+//     return -1
+ 
+ 
+// if __name__ == '__main__':
+ 
+//     A = [8, 9, 10, 1, 2, 3, 4, 5, 6, 7]
+//     print("The list is rotated", findRotationCount(A), "times")
