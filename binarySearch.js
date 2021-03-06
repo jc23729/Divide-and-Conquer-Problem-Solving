@@ -233,4 +233,4 @@ def findRotationCount(A):
         if A[left] <= A[right]:
             return left
  
-    //     mid = (left + right) // 2
+        mid = (left + right) // 2
