@@ -246,9 +246,9 @@ def findRotationCount(A):
         if A[mid] <= A[next] and A[mid] <= A[prev]:
             return mid
  
-//         # if `A[mid…right]` is sorted, and `mid` is not the minimum element,
-//         # then the pivot element cannot be present in `A[mid…right]`,
-//         # discard `A[mid…right]` and search in the left half
+        # if `A[mid…right]` is sorted, and `mid` is not the minimum element,
+        # then the pivot element cannot be present in `A[mid…right]`,
+        # discard `A[mid…right]` and search in the left half
  
 //         elif A[mid] <= A[right]:
 //             right = mid - 1
