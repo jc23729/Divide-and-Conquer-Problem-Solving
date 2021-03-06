@@ -240,11 +240,11 @@ def findRotationCount(A):
         next = (mid + 1) % len(A)
         prev = (mid - 1 + len(A)) % len(A)
  
-//         # if the `mid` element is less than both its next and previous
-//         # neighbor, it is the list's minimum element
+        # if the `mid` element is less than both its next and previous
+        # neighbor, it is the list's minimum element
  
-//         if A[mid] <= A[next] and A[mid] <= A[prev]:
-//             return mid
+        if A[mid] <= A[next] and A[mid] <= A[prev]:
+            return mid
  
 //         # if `A[mid…right]` is sorted, and `mid` is not the minimum element,
 //         # then the pivot element cannot be present in `A[mid…right]`,
