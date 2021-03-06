@@ -222,8 +222,8 @@ function binarySearch(arr, val) {
 # Function to find the total number of times the list is rotated
 def findRotationCount(A):
  
-    // # search space is `A[left…right]`
-    // (left, right) = (0, len(A) - 1)
+    # search space is `A[left…right]`
+    (left, right) = (0, len(A) - 1)
  
     // # loop till the search space is exhausted
     // while left <= right:
