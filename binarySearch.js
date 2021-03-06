@@ -228,9 +228,9 @@ def findRotationCount(A):
     # loop till the search space is exhausted
     while left <= right:
  
-    //     # if the search space is already sorted, we have
-    //     # found the minimum element (at index `left`)
-    //     if A[left] <= A[right]:
-    //         return left
+        # if the search space is already sorted, we have
+        # found the minimum element (at index `left`)
+        if A[left] <= A[right]:
+            return left
  
     //     mid = (left + right) // 2
