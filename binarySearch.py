@@ -8,3 +8,11 @@
 # Output: 4
 # Explanation: 9 exists in nums and its index is 4
 
+# Constraints:
+
+# 1 <= nums.length <= 104
+# -9999 <= nums[i], target <= 9999
+# All the integers in nums are unique.
+# nums is sorted in an ascending order.
+
+
