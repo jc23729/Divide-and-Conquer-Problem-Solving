@@ -16,3 +16,5 @@
 # nums is sorted in an ascending order.
 
 
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
