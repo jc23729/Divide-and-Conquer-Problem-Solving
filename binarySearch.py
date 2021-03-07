@@ -26,5 +26,11 @@
 
 # If the target value is larger - continue to search on the right.
 
+Algorithm
+
+Initialise left and right pointers : left = 0, right = n - 1.
+
+
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
