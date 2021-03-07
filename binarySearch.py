@@ -26,21 +26,21 @@
 
 # If the target value is larger - continue to search on the right.
 
-Algorithm
+# Algorithm
 
-Initialise left and right pointers : left = 0, right = n - 1.
+# Initialise left and right pointers : left = 0, right = n - 1.
 
-While left <= right :
+# While left <= right :
 
-Compare middle element of the array nums[pivot] to the target value target.
+# Compare middle element of the array nums[pivot] to the target value target.
 
-If the middle element is the target target = nums[pivot] : return pivot.
+# If the middle element is the target target = nums[pivot] : return pivot.
 
-If the target is not yet found :
+# If the target is not yet found :
 
-If target < nums[pivot], continue the search on the left right = pivot - 1.
+# If target < nums[pivot], continue the search on the left right = pivot - 1.
 
-Else continue the search on the right left = pivot + 1.
+# Else continue the search on the right left = pivot + 1.
 
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
