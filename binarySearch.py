@@ -30,6 +30,10 @@ Algorithm
 
 Initialise left and right pointers : left = 0, right = n - 1.
 
+While left <= right :
+
+Compare middle element of the array nums[pivot] to the target value target.
+
 
 
 class Solution:
