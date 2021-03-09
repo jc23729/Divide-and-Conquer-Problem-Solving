@@ -80,3 +80,13 @@ Output: [1,2,1,2]
 1 <= n <= 500
 nums.length == 2n
 1 <= nums[i] <= 10^3
+
+
+/**
+ * @param {number[]} nums
+ * @param {number} n
+ * @return {number[]}
+ */
+var shuffle = function(nums, n) {
+    
+};
