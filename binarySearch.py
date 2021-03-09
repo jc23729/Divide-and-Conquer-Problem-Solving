@@ -73,3 +73,10 @@ Output: [1,4,2,3,3,2,4,1]
 
 Input: nums = [1,1,2,2], n = 2
 Output: [1,2,1,2]
+
+
+# Constraints:
+
+1 <= n <= 500
+nums.length == 2n
+1 <= nums[i] <= 10^3
