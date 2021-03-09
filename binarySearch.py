@@ -136,3 +136,5 @@ class Solution(object):
 # Output Format
 
 # Return the integer sum of the elements in the array.
+input()
+print(sum(map(int, input().split())))
